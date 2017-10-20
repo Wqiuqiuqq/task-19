@@ -1,0 +1,283 @@
+body,.bigbox{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+}
+.header{
+    width:100%;
+    height: 0.7rem;
+    .head{
+        width: 2rem;
+        background: red;
+        margin: auto;
+        font-size: 0.16rem;
+        font-weight: bold;
+        line-height: 0.7rem;
+        li{
+            text-align: center;
+            a{
+                color: #999;
+            }
+            
+        }
+        .headon{
+            border-bottom: 3px solid #333;
+            a{
+                color: #333;
+            }
+        }
+        
+    }
+    .search{
+        right: .11rem;
+        top: .3rem;
+    }
+}
+
+.main{
+    width: 100%;
+    flex: 1;
+    overflow: auto;
+}
+.banner{
+    width: 100%;
+    padding-top: 2px;
+    position: relative;
+    overflow-x:hidden;
+    img{
+        width: 100%;
+    }
+    .swiper-pagination{
+        bottom: 10px;
+    }
+}
+.adv-banner{
+    width: 100%;
+    height: .75rem;
+    img{
+        width: 100%;
+    }
+}
+.carlist{
+    width: 100%;
+    ul{
+        width: 100%;
+        padding: 0.18rem 0;
+        display: flex;
+        li{
+            flex: 1;
+            a{
+                width: 0.43rem;
+                height: 0.43rem;
+                line-height: 0.43rem;
+                text-align: center;
+                display: inline-block;
+                border-radius: 20px;
+                color: #fff;
+                i{
+                    font-size: .19rem;
+                }
+                span{
+                    font-size: 0.15rem;
+                }
+            }
+        }
+    }
+}
+
+.servicebox{
+    width: 100%;
+    margin-top: 1rem;
+    h1{
+        font-size: 0.14rem;
+        height: 0.5rem;
+        line-height: 0.5rem;
+        padding-left: 0.18rem;
+        background: #fff;
+    }
+    ul{
+        li{
+            padding:0.18rem;
+            i{
+                font-size: 0.3rem;
+            }
+            span{
+                font-size: 0.12rem
+            }
+        }
+    }
+}
+.limit-time{
+    width: 100%;
+   
+    padding-left:0.17rem;
+    .limit-head{
+        height: .5rem;
+        line-height: .5rem;
+        h4{
+            line-height: .5rem;
+        }
+        .timenum{
+            width: 0.2rem;
+            height:0.2rem;
+            line-height: 0.2rem;
+            text-align: center;
+            border-radius:2px;
+            color: #fff;
+            background: #333;
+            display: inline-block;
+        }
+    }
+    .limit-content{
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        ul{
+            width: 1042px;
+            .limitItem{
+                img{
+                    height: 0.82rem;
+                    
+                }
+               width: 1.5rem;
+               float: left;
+               text-align: center;
+               border:1px solid #ccc;
+               margin-left: 20px;
+            }
+        }
+    }
+}
+.playspe{
+    width: 100%;
+    
+    .playspe-head{
+        padding-left: 0.15rem;
+        padding-right: 0.15rem;
+        height: 0.49rem;
+        line-height: 0.49rem;
+    }
+    ul{
+        width: 100%;
+        .smallli{
+            border-left:none;
+        }
+        li{
+            padding:0.12rem;
+            border-left: 1px solid #ccc;
+            border-top: 1px solid #ccc;
+            .titbig{
+                display: block;
+                font-size: 0.15rem;
+                font-weight: bold;
+                color: #262626;
+                line-height: 0.16rem;
+            }
+            .titsmall{
+                font-size: 0.13rem;
+                color: #fb5401;
+                line-height: 0.25rem;
+            }
+            img{
+                width: 90%;
+            }
+            .smallimg{
+                width: 75%;
+            }
+        }
+    }
+}
+.like-box{
+    padding-left:0.15rem;
+    padding-right:0.15rem;
+    .car-head{
+        width: 100%;
+        height: 0.5rem;
+        h4{
+            width: 100%;
+            height: 0.5rem;
+            line-height:0.5rem;
+            float: left;
+        }
+    }
+    .car-content{
+        width: 100%;
+       
+        padding-bottom: 0.5rem;
+        padding-left: 0.17rem;
+        padding-right: 0.17rem;
+        ul{
+            li{
+                height: 2.95rem;
+                 padding-top: 0.35rem;
+                h5{
+                    font-size: 0.13rem;
+                }
+                p{
+                    font-size: 0.12rem;
+                    line-height:.18rem;
+                    margin-top: 0.2rem;
+                    color: #999;
+                }
+                span{
+                    font-size: 0.14rem;
+                    color: orange;
+                }
+            }
+        }
+    }
+}
+.more{
+    width: 100%;
+    height: 0.5rem;
+    line-height: .5rem;
+    text-align: center;
+    font-size: 0.16rem;
+    color: gray;
+}
+.footer{
+   width: 100%;
+   height: 0.5rem;
+   ul{
+       width: 100%;
+       display: flex;
+       li{
+           flex: 1;
+           text-align: center;
+           a{
+               display: inline-block;
+               i{
+                   
+               }
+               span{
+                   display: block;
+               }
+           }
+           .footon{
+               color: blue;
+           }
+       }
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

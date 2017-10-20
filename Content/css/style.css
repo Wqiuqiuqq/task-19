@@ -1,0 +1,205 @@
+body, .bigbox {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column; }
+
+.header {
+  width: 100%;
+  height: 0.7rem; }
+  .header .head {
+    width: 2rem;
+    background: red;
+    margin: auto;
+    font-size: 0.16rem;
+    font-weight: bold;
+    line-height: 0.7rem; }
+    .header .head li {
+      text-align: center; }
+      .header .head li a {
+        color: #999; }
+    .header .head .headon {
+      border-bottom: 3px solid #333; }
+      .header .head .headon a {
+        color: #333; }
+  .header .search {
+    right: .11rem;
+    top: .3rem; }
+
+.main {
+  width: 100%;
+  flex: 1;
+  overflow: auto; }
+
+.banner {
+  width: 100%;
+  padding-top: 2px;
+  position: relative;
+  overflow-x: hidden; }
+  .banner img {
+    width: 100%; }
+  .banner .swiper-pagination {
+    bottom: 10px; }
+
+.adv-banner {
+  width: 100%;
+  height: .75rem; }
+  .adv-banner img {
+    width: 100%; }
+
+.carlist {
+  width: 100%; }
+  .carlist ul {
+    width: 100%;
+    padding: 0.18rem 0;
+    display: flex; }
+    .carlist ul li {
+      flex: 1; }
+      .carlist ul li a {
+        width: 0.43rem;
+        height: 0.43rem;
+        line-height: 0.43rem;
+        text-align: center;
+        display: inline-block;
+        border-radius: 20px;
+        color: #fff; }
+        .carlist ul li a i {
+          font-size: .19rem; }
+        .carlist ul li a span {
+          font-size: 0.15rem; }
+
+.servicebox {
+  width: 100%;
+  margin-top: 1rem; }
+  .servicebox h1 {
+    font-size: 0.14rem;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    padding-left: 0.18rem;
+    background: #fff; }
+  .servicebox ul li {
+    padding: 0.18rem; }
+    .servicebox ul li i {
+      font-size: 0.3rem; }
+    .servicebox ul li span {
+      font-size: 0.12rem; }
+
+.limit-time {
+  width: 100%;
+  padding-left: 0.17rem; }
+  .limit-time .limit-head {
+    height: .5rem;
+    line-height: .5rem; }
+    .limit-time .limit-head h4 {
+      line-height: .5rem; }
+    .limit-time .limit-head .timenum {
+      width: 0.2rem;
+      height: 0.2rem;
+      line-height: 0.2rem;
+      text-align: center;
+      border-radius: 2px;
+      color: #fff;
+      background: #333;
+      display: inline-block; }
+  .limit-time .limit-content {
+    width: 100%;
+    overflow: hidden;
+    position: relative; }
+    .limit-time .limit-content ul {
+      width: 1042px; }
+      .limit-time .limit-content ul .limitItem {
+        width: 1.5rem;
+        float: left;
+        text-align: center;
+        border: 1px solid #ccc;
+        margin-left: 20px; }
+        .limit-time .limit-content ul .limitItem img {
+          height: 0.82rem; }
+
+.playspe {
+  width: 100%; }
+  .playspe .playspe-head {
+    padding-left: 0.15rem;
+    padding-right: 0.15rem;
+    height: 0.49rem;
+    line-height: 0.49rem; }
+  .playspe ul {
+    width: 100%; }
+    .playspe ul .smallli {
+      border-left: none; }
+    .playspe ul li {
+      padding: 0.12rem;
+      border-left: 1px solid #ccc;
+      border-top: 1px solid #ccc; }
+      .playspe ul li .titbig {
+        display: block;
+        font-size: 0.15rem;
+        font-weight: bold;
+        color: #262626;
+        line-height: 0.16rem; }
+      .playspe ul li .titsmall {
+        font-size: 0.13rem;
+        color: #fb5401;
+        line-height: 0.25rem; }
+      .playspe ul li img {
+        width: 90%; }
+      .playspe ul li .smallimg {
+        width: 75%; }
+
+.like-box {
+  padding-left: 0.15rem;
+  padding-right: 0.15rem; }
+  .like-box .car-head {
+    width: 100%;
+    height: 0.5rem; }
+    .like-box .car-head h4 {
+      width: 100%;
+      height: 0.5rem;
+      line-height: 0.5rem;
+      float: left; }
+  .like-box .car-content {
+    width: 100%;
+    padding-bottom: 0.5rem;
+    padding-left: 0.17rem;
+    padding-right: 0.17rem; }
+    .like-box .car-content ul li {
+      height: 2.95rem;
+      padding-top: 0.35rem; }
+      .like-box .car-content ul li h5 {
+        font-size: 0.13rem; }
+      .like-box .car-content ul li p {
+        font-size: 0.12rem;
+        line-height: .18rem;
+        margin-top: 0.2rem;
+        color: #999; }
+      .like-box .car-content ul li span {
+        font-size: 0.14rem;
+        color: orange; }
+
+.more {
+  width: 100%;
+  height: 0.5rem;
+  line-height: .5rem;
+  text-align: center;
+  font-size: 0.16rem;
+  color: gray; }
+
+.footer {
+  width: 100%;
+  height: 0.5rem; }
+  .footer ul {
+    width: 100%;
+    display: flex; }
+    .footer ul li {
+      flex: 1;
+      text-align: center; }
+      .footer ul li a {
+        display: inline-block; }
+        .footer ul li a span {
+          display: block; }
+      .footer ul li .footon {
+        color: blue; }
+
+/*# sourceMappingURL=style.css.map */
